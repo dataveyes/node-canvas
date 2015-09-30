@@ -1,5 +1,8 @@
+#### Note :  The official node-canvas repository use Pango and it prevent us to use custom fonts on Ubunut 14 RPI 2. This version disable Pango at compilation. (see /bindings.gyp).
+
 node-canvas
 ===========
+
 ### Canvas graphics API backed by Cairo
 [![Build Status](https://travis-ci.org/Automattic/node-canvas.svg?branch=master)](https://travis-ci.org/Automattic/node-canvas)
 [![NPM version](https://badge.fury.io/js/canvas.svg)](http://badge.fury.io/js/canvas)
